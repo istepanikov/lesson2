@@ -1,0 +1,63 @@
+* {
+    background-color: salmon;
+}
+
+body { /*Добавил отступ в во всем теге "body"*/
+margin: 1%;
+}
+h1 {
+margin: 1%; /*Добавил дополнительный отступ для загаловка*/
+}
+.leftimg {
+    float: left; /*Я использовал тег "float" для расположения текста по правой стороне картинки*/ 
+margin: 7px 7px 7px 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sas {
+    inline-size: auto;
+    font-style: italic;
+}
+
+#sos {
+    font-size: 20px;
+}
+#inputcolor{
+    background: white; /* Цвет фона */
+}
+#ses {
+    width: 500px;	height: auto; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+#sesa {
+    background: #fc0; /* Цвет фона */
+}
+
+th {
+    background: white; /* Цвет фона */
+}
+
+input.atributs {
+    background: white;
+}
+
+select.atributs {
+    background: white;
+}
+
+option.atributs {
+    background: white;
+}
+h1.atributs {
+    background: #03f0039f;
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
+    border: 6px solid #7922CC;
+}
